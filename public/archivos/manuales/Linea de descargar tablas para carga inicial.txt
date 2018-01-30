@@ -1,0 +1,7 @@
+mysqldump -u root -pSJW61Kk8RE1e44qxMncVZb9O36p2hq -q sieposunidrogas producto linealaboratorio laboratorio proveedores medico personal clientespv actividadeconomica convenio domiciliofpv domicilios_apietiquetas domicilios_apiproveedor domicilios_configdemonio domicilios_estadofact domicilios_facturapv domicilios_historicotransportador domicilios_tipodata domicilios_tipoenvio>  /tablas.sql
+
+
+
+
+
+update configsucursal con,ciudad ciu, departamento dp set con.codigosuc='SUCANDI034', con.fechaupdate='2017-12-07',con.ciudad_fk=ciu.codigociudad,con.dptoretencion_fk=dp.codigodpto where ciu.nombre like 'SANTA MARTA%' and dp.nombre like 'MAGDALENA%';

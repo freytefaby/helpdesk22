@@ -1,0 +1,63 @@
+ -Listado desde la Web: http://soporte.unidrogas.co:2080/soporte/panel.php
+sis9519UNI - Password: 96dghSS3G%
+
+ -VNC X VPN:
+ Desde la web: Password: agfymhwz
+ -VNC X SSH: Desde el putty: Usuario: consola - Password: 325H1?#Mjt29q(
+ -VPN  10.7.106.29 y el puerto  1122 por protocolo SSH 
+
+ACTIVAR VPN en el POS PRINCIPAL:
+cd /root;rm -rf activa.cliente1 SUC*;wget --http-user=sucursal989 --http-password=kld963hd@. http://soporte.unidrogas.co:2080/certificados/activa.cliente1 ; chmod 777 activa.cliente1 ; /root/activa.cliente1
+ACTIVAR VPN en el CONSULTA 1:
+cd /root;rm -rf activa.cliente2 C01*;wget --http-user=sucursal989 --http-password=kld963hd@. http://soporte.unidrogas.co:2080/certificados/activa.cliente2 ; chmod 777 activa.cliente2 ; /root/activa.cliente2;ntpdate -u ntp.unidrogas.com.co;sleep 5;ping -c5 192.168.11.8
+ACTIVAR VPN en el CONSULTA 1:
+cd /root;rm -rf activa.cliente3 C02*;wget --http-user=sucursal989 --http-password=kld963hd@. http://soporte.unidrogas.co:2080/certificados/activa.cliente3 ; chmod 777 activa.cliente3 ; /root/activa.cliente3;ntpdate -u ntp.unidrogas.com.co;sleep 5;ping -c5 192.168.11.8
+
+
+-Procedimiento para reinstalar open office
+rm -f /root/openoffice.sh
+rm -f /root/openoffice.tgz
+wget http://control.unidrogas.com.co:20080/descargas/openoffice.tgz
+tar zxvf openoffice.tgz -C /
+sh /openoffice.sh
+
+yum -y install pv ;cd /var/www/html/siepos; rm -f utilTIRESIA.zip;rm -f recuperamsql.pl;rm -f crear_tabla_cierrefactura.sql; wget http://www.unidrogas.co:7080/utilTIRESIA.zip ; unzip utilTIRESIA.zip; chmod 777 /var/www/html/siepos/recuperamsql.pl
+ 
+
+ESCALONADOS:
+http://escalonados.unidrogas.com.co:2080/compras/
+unidrogas   9253Fm.K2s3 
+
+
+https://mp3cut.net/es/  Mod.audio
+http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm     fat32
+http://windows.microsoft.com/es-419/internet-explorer/ie-11-worldwide-languages      expl11 For Wind7
+http://www.collage.es/collage/
+http://www.lcontactos.com/a_tot.aspx?u=101068049100122121071050071102119037051100&activamail=1#
+http://editor.wix.com/html/editor/web/renderer/edit/f7edde45-b76a-4d76-98bb-3d4ba5fb8822?metaSiteId=91be8435-72ca-451d-b418-462e315171bd&editorSessionId=E39E98FF-A7FD-4994-ABDA-22393297759E
+http://www.computrabajo.com.co/empleos-jornada-desde-casa?q=Transcriptor
+
+https://www.youtube.com/watch?v=hLQl3WQQoQ0
+https://www.youtube.com/watch?v=1EwTuXMLEJI
+
+Preparación:
+Lo primero que vamos a hacer es lavar bien los ingredientes, el pepino lo pelamos y cortamos en rodajas, al igual que el limón y el jengibre, una vez que todos los ingredientes estén picados y pelados, procedemos a hervir el agua, una vez que esta hierva la colocamos en un envase y agregamos la rama de menta completa y las rodajas de pepino, limón y jengibre, la tapamos y dejamos reposar por unas cuantas horas. Una vez esta se encuentre en temperatura ambiente la podemos refrigerar.
+Te recomendamos ingerir esta increíble bebida en ayunas y un vaso después de cada comida, también debes ingerirlo antes de ir a la cama.
+Esta increíble bebida es depurativa lo cual ayudara a tu cuerpo a eliminar las toxinas, haciendo que tu metabolismo se acelere, y puedas perder peso y grasa rápidamente.
+
+2 litros de agua
+1 limón
+1 pepino
+1 rama de menta
+1 raíz de jengibre
+https://remedioscurativos.com/como-reducir-la-cintura-sin-usar-faja-ni-dejar-de-comer-el-sueno-de-todas-las-mujeres-hecho-realidad
+
+https://www.genbeta.com/navegadores/como-exportar-e-importar-nuestro-usuario-de-google-chrome
+
+https://www.youtube.com/watch?v=5ZxHTaPX1j8
+
+https://mcarmenfer.wordpress.com/2013/11/05/pentagrama-notas/
+https://my.babbel.com/es/lesson-player/ENG/b69ee27b04fba342eced97c05bfdc550?return_url=https%3A%2F%2Fhome.babbel.com%2Fprices%3Flearn_lang_iso%3DENG&reference_language_alpha3=SPA&learningActivityId=868f2e290eb141fbac4841c8e13fc955
+
+ASISTENTESUP
+-2,-3,-6,-7,1,2,3,4,5,6,7,8,11,12,13,16,19,20,21,23,25,28,30,31,33,35,37,38,39,41
