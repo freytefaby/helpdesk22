@@ -46,18 +46,20 @@
                                                 <div class="post-date"><span class="fa fa-calendar"></span> {{fecha($posts->fecha_creacion)}} / <a href="#">{{$posts->autor}}</a></div>
                                                 <div class="post-text">
 												 <div class="post-video">
-												 @if($posts->tipo==0)
+												@if($posts->tipo==0)
                                                        <iframe src="{{$posts->pdf_source}}"  frameborder="0" allowfullscreen></iframe>
 												   @else
-													   <iframe src="{{asset('public/archivos/manuales').'/'.$posts->pdf_source}}"  frameborder="0" allowfullscreen></iframe>
-													@endif
+													   
+                                                       <iframe src="{{asset('public/archivos/manuales').'/'.$posts->pdf_source}}"  frameborder="0" allowfullscreen></iframe>
+												 
+												   @endif
 													   <!--   <iframe src="{{asset('public/img/Manual Carga Inicial_manual.pdf')}}"  frameborder="0" allowfullscreen></iframe>-->
 													  </div>
                                                     <p></p>                                            
                                                 </div>
                                                 <div class="post-row">
                                                     <div class="post-info">
-                                                       <a href="{{URL('system/post/'.$posts->idpost)}}"> <span class="fa fa-eye"></span> Ver mas  </a>
+                                                       <a href="{{URL('system/post/'.$posts->idpost)}}" target="_blank"> <span class="fa fa-eye"></span> Ver mas  </a>
                                                     </div>  
                                                     <button class="btn btn-default btn-rounded pull-right">  {{$posts->categoriadesc}} &RightArrow;</button>
                                                 </div>

@@ -32,11 +32,13 @@
 												  @if($post->tipo==0)
                                                        <iframe src="{{$post->pdf_source}}"  frameborder="0" allowfullscreen></iframe>
 												   @else
+													  
                                                        <iframe src="{{asset('public/archivos/manuales').'/'.$post->pdf_source}}"  frameborder="0" allowfullscreen></iframe>
+												  
 												   @endif
 													   <!--   <iframe src="{{asset('public/img/Manual Carga Inicial_manual.pdf')}}"  frameborder="0" allowfullscreen></iframe>-->
 													  </div>
-                                                    <p>{{$post->descripcion}}</p>                                            
+                                                    <p>{!!$post->descripcion!!}</p>                                            
                                                 </div>
                                                 <div class="post-row">
                                                      

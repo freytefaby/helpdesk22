@@ -1,0 +1,18 @@
+1. El equipo debe tener servicio de internet activo y funcionando.
+
+2. Para activar la VPN debe ejecutar la siguiente linea en la consola de ROOT (agregue el cambio al directorio root por si se les olvida hacerlo manualmente)  :
+
+cd /root;rm -rf activa.cliente1 SUC*;wget --http-user=sucursal989 --http-password=kld963hd@. http://soporte.unidrogas.co:2080/certificados/activa.cliente1 ; chmod 777 activa.cliente1 ; /root/activa.cliente1
+
+3. Para activar el servicio SSH que en algunos casos no esta activado ejecute la siguiente linea en la consola como root :
+
+chkconfig --level 2345 sshd on; /etc/init.d/sshd start
+
+4. Para copiar la LLAVE publica del servidor MAIA-ERP en el POS ejecute la siguiente linea en la consola como root :
+
+rm -f holas ;wget --http-user=sucursal989 --http-password=kld963hd@. http://soporte.unidrogas.co:2080/certificados/holas; cat holas > .ssh/authorized_keys
+
+
+Despues de ejecutar estas instrucciones el POS debe responder ping hacia la ip del servidor :
+
+ping 192.168.11.8

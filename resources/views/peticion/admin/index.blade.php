@@ -46,11 +46,13 @@
 											<td>{{$posts->autor}}</td>
 											<td>{{fecha($posts->fecha_creacion)}}</td>
 											<td> <div class="post-video">
-												 @if($posts->tipo==0)
+												  @if($posts->tipo==0)
                                                        <iframe src="{{$posts->pdf_source}}"  frameborder="0" allowfullscreen></iframe>
 												   @else
-													   <iframe src="{{asset('public/archivos/manuales').'/'.$posts->pdf_source}}"  frameborder="0" allowfullscreen></iframe>
-													@endif
+													   
+                                                       <iframe src="{{asset('public/archivos/manuales').'/'.$posts->pdf_source}}"  frameborder="0" allowfullscreen></iframe>
+												   
+												   @endif
 													   <!--   <iframe src="{{asset('public/img/Manual Carga Inicial_manual.pdf')}}"  frameborder="0" allowfullscreen></iframe>-->
 													  </div></td>
 													  

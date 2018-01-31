@@ -1,0 +1,11 @@
+Asunto: RE: INSTRUCCIONES PARA PRUEBAS EN MAIA POS
+ 
+Si se refiere a la actualización de información al punto de venta desde el servidor utilice la siguiente informacion :
+ 
+1.       Loguearse al servidor www.unidrogas.net  usando ssh  por el puerto 1022 con el usuario maxlorduy y la contraseña 3f22GmCd99woPKX23)a
+2.       Pasarse a root con el comando “sudo su –“, el sistema le pide de nuevo su contraseña de usuario
+3.       Digite en el prompt la palabra “sucursal” y de enter
+4.       Digite el id de la sucursal que desea actualizar con letras mayusculas, sin dar enter el modulo ofrece dos opciones, ejecute la primera
+5.       Espera a que confirme proceso finalizado y Listo, la droguería puede recoger información.
+ 
+Nota: Recuerde que la sucursal debe estar apuntando al dominio www.unidrogas.net en el archivo sieposconfig.xml y usted debe estar conectado a la VPN para poder conectarse al servidor.
